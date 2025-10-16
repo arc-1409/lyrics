@@ -1,9 +1,14 @@
 import sys;
 import time;
 
+'''
+TODO: 
+- figure out a way to have differnt line_delay for every line without breaking formatting
+'''
+
 def lyrics():
     lines = [
-        ('i know that this could hurt me bad', 0.06, 0.7),
+        ('i know that this could hurt me bad', 0.06, 0.7),  #illegal formatting
         ('i know that this could feel like that', 0.06, 0.2),
         ('but i just can\'t stop', 0.06, 2),
         ('let my defences drop', 0.06, 2),
